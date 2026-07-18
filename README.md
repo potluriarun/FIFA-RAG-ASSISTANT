@@ -12,7 +12,6 @@ pages of dense legal-style text. This project builds a Retrieval-Augmented
 Generation (RAG) assistant that answers questions using *only* those
 documents, and says so honestly when it doesn't know.
 
-
 ## Demo
 
 ![Demo: a grounded, cited answer followed by an honest refusal on an out-of-scope question](assets/demo.gif)
