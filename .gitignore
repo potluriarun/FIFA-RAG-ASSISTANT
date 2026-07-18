@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+chroma_db/
+
+# Downloaded rulebook PDFs (large, publicly re-downloadable — see README)
+data/pdfs/*.pdf
+!data/pdfs/.gitkeep
+
+.DS_Store
+
+# Local Claude Code session settings (per-machine tool permissions)
+.claude/settings.local.json
