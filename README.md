@@ -164,3 +164,10 @@ declines instead of guessing — that refusal is the feature, not a bug.
 - Swap the corpus to prove domain-agnosticism (same code, IT/HR/legal docs)
 - Observability layer: log every query, retrieved chunks, latency, token usage
 - Evaluation set: a fixed batch of questions with known answers, scored automatically after each change
+
+## License
+
+The code in this repository is MIT licensed — see [LICENSE](LICENSE). This
+does not extend to the IFAB/FIFA PDF documents themselves, which remain the
+copyright of their respective publishers and are not included in this repo
+(see Setup for download links).
