@@ -12,8 +12,6 @@ pages of dense legal-style text. This project builds a Retrieval-Augmented
 Generation (RAG) assistant that answers questions using *only* those
 documents, and says so honestly when it doesn't know.
 
-Built entirely on free/local tooling plus a **Claude Pro subscription** —
-no metered API key required.
 
 ## Demo
 
