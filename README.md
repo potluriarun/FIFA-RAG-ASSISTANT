@@ -17,11 +17,20 @@ no metered API key required.
 
 ## Demo
 
+![Demo: a grounded, cited answer followed by an honest refusal on an out-of-scope question](assets/demo.gif)
+
+Two things happening in the recording above: a rules question gets a
+grounded answer citing the exact Law and page, then an out-of-scope
+question ("Who is the best striker in the world?") gets an honest refusal
+instead of a guess — the whole point of building this over a plain chatbot.
+
+**Detail views (static):**
+
 **A grounded, cited answer:**
 
 ![Grounded answer with sources](assets/demo-grounded-answer.png)
 
-**Honest refusal on an out-of-scope question — the whole point of building this over a plain chatbot:**
+**Honest refusal on an out-of-scope question:**
 
 ![Refusal on an out-of-scope question](assets/demo-refusal.png)
 
