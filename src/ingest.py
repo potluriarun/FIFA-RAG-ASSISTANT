@@ -196,12 +196,15 @@ def main():
     print(f"Found {len(pdf_paths)} PDF(s): {[p.name for p in pdf_paths]}")
 
     all_records = []
+    total_pages = 0
     for pdf_path in pdf_paths:
+        page_count = len(PdfReader(str(pdf_path)).pages)
         records = build_chunks(pdf_path)
-        print(f"  {pdf_path.name}: {len(records)} chunks")
+        print(f"  {pdf_path.name}: {page_count} pages -> {len(records)} chunks")
         all_records.extend(records)
+        total_pages += page_count
 
-    print(f"Total chunks: {len(all_records)}")
+    print(f"Total: {total_pages} pages across {len(pdf_paths)} documents -> {len(all_records)} chunks")
     print(f"Embedding with {EMBED_MODEL_NAME} ...")
     model = SentenceTransformer(EMBED_MODEL_NAME)
     embeddings = model.encode(

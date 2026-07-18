@@ -77,6 +77,9 @@ flowchart LR
 | `src/llm.py` | Wraps the `claude -p` CLI call (prompt piped via stdin) |
 | `src/app.py` | Streamlit chat UI tying retrieval + LLM together |
 
+**328 pages across 2 documents → 423 chunks** in the vector database
+(`python src/ingest.py` prints this on every run).
+
 ### A note on the chunker
 
 Character-count chunking alone cuts a Law's numbered sub-clauses mid-thought.
