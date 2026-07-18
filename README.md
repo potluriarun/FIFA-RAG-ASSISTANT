@@ -24,6 +24,19 @@ grounded answer citing the exact Law and page, then an out-of-scope
 question ("Who is the best striker in the world?") gets an honest refusal
 instead of a guess — the whole point of building this over a plain chatbot.
 
+**Sample exchange (text):**
+
+> **Q: How many substitutions are allowed in the 2026 World Cup?**
+>
+> At the 2026 FIFA World Cup, each team may use a maximum of **five
+> substitutes**, with a maximum of **three substitution opportunities**
+> (simultaneous substitutions by both teams count as one used opportunity
+> each); substitutions at half-time don't count as an opportunity. Teams
+> may also make **one additional permanent concussion substitute** per
+> match, separate from the normal limit.
+>
+> — *Article 36.2 & 36.3, FIFA World Cup 2026 Regulations, p.55*
+
 **Detail views (static):**
 
 **A grounded, cited answer:**
