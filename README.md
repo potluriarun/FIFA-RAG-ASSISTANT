@@ -129,6 +129,12 @@ characters (never splitting a line, so never cutting a word in half), with
 
 ```bash
 python -m venv venv
+source venv/bin/activate           # macOS/Linux
+pip install -r requirements.txt
+```
+
+```powershell
+python -m venv venv
 .\venv\Scripts\Activate.ps1        # Windows PowerShell
 pip install -r requirements.txt
 ```
